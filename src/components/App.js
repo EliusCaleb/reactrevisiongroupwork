@@ -2,9 +2,11 @@ import React from 'react';
 import {Routes, Route} from 'react-router-dom'
 import MenuList from './MenuList';
 import NavBar from "./NavBar";
- import Reservation from './Reservation'
- import Home from './Home'
- import About from './About'
+import Home from './Home';
+import About from './About';
+import MenuItem from "./MenuItem";
+import menu from '../menu.js'
+
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menulist" element={<MenuList />} />
-        <Route path="/reservation" element={<Reservation />} />
+        <Route path="/menuitem/:steakId" element={<MenuItem menu={menu.steaks} />}></Route>
+       
 
       </Routes>
     

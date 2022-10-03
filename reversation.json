@@ -1,0 +1,66 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "firstName": "",
+      "secondName": "",
+      "email": "",
+      "phoneNumber": ""
+    },
+    {
+      "newReservation": {
+        "firstName": "Annastacia",
+        "secondName": "Mumbua",
+        "email": "annetotoh@gmail.com",
+        "phoneNumber": "0768372439"
+      },
+      "id": 2
+    },
+    {
+      "newReservation": {
+        "firstName": "John",
+        "secondName": "Doe",
+        "email": "johndoe@gmail.com",
+        "phoneNumber": "0723546677"
+      },
+      "id": 3
+    },
+    {
+      "newReservation": {
+        "firstName": "Evelyne ",
+        "secondName": "Hugo",
+        "email": "evelynehugo@gmail.com",
+        "phoneNumber": "011222333"
+      },
+      "id": 4
+    },
+    {
+      "newReservation": {
+        "firstName": "James",
+        "secondName": "Mwangi",
+        "email": "jamesmwangi@gmail.com",
+        "phoneNumber": "0223334445"
+      },
+      "id": 5
+    },
+    {
+      "newReservation": {
+        "firstName": "Leo",
+        "secondName": "Mwanzia",
+        "email": "leomwanzia@yahoo.com",
+        "phoneNumber": "0887734567"
+      },
+      "id": 6
+    },
+    {
+      "newReservation": {
+        "firstName": "Ashley",
+        "secondName": "Njeri",
+        "email": "njeriash@gmail.com",
+        "phoneNumber": "123456789"
+      },
+      "id": 7
+    }
+  ]
+}
+  
